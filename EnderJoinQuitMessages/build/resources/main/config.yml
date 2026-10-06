@@ -1,0 +1,18 @@
+# ================================================================= #
+#                   EnderJoinQuitMessages                            #
+#                 Created by: EnderKnight7op                        #
+#         Support Discord server: https://dsc.gg/enderlabs          #
+#                                                                   #
+#                     VERSION: 1.1.0                                #
+# ================================================================= #
+
+# Configure the messages shown when players join or leave the server.
+
+
+# You can use '&' for colour codes (for example, &a will make the text green)
+# Use %player% to get the player name
+# You can use multiple lines
+
+
+join-message: "&a[+] %player%"
+leave-message: "&c[-] %player%"
