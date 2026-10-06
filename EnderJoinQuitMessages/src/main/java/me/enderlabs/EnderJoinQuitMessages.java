@@ -20,7 +20,7 @@ public class EnderJoinQuitMessages extends JavaPlugin {
         getLifecycleManager().registerEventHandler(LifecycleEvents.COMMANDS, event -> {
 
             event.registrar().register(
-                    Commands.literal("unitedmc")
+                    Commands.literal("ejqm")
                             .then(Commands.literal("help")
                                     .executes(context -> {
 
