@@ -34,10 +34,10 @@ public class EnderJoinQuitMessages extends JavaPlugin {
                                                 .sendPlainMessage("EnderJoinQuitMessages Commands:");
 
                                         context.getSource().getSender()
-                                                .sendPlainMessage("/jqm set join-message <message>");
+                                                .sendPlainMessage("/ejqm set join-message <message>");
 
                                         context.getSource().getSender()
-                                                .sendPlainMessage("/jqm set leave-message <message>");
+                                                .sendPlainMessage("/ejqm set leave-message <message>");
 
                                         return Command.SINGLE_SUCCESS;
                                     }))
