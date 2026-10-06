@@ -126,4 +126,3 @@ public class EnderJoinQuitMessages extends JavaPlugin {
         getLogger().info("EnderJoinQuitMessages has been disabled!");
     }
 }
-// Testing GitHub to Discord webhook
