@@ -1,0 +1,22 @@
+name: EnderJoinQuitMessages
+version: 1.1.0
+main: me.enderlabs.EnderJoinQuitMessages
+api-version: '26.2'
+author: EnderLabs
+description: Configurable join and quit messages
+
+permissions:
+  enderjoinquitmessages.command.help:
+    description: Allows the player to use /EnderJoinQuitMessages help
+    default: true
+
+  enderjoinquitmessages.command.reload:
+    description: Allows the player to use /EnderJoinQuitMessages reload
+    default: op
+
+  enderjoinquitmessages.command.set:
+    description: Allows the player to use /EnderJoinQuitMessages set
+    default: op
+
+softdepend:
+  - PlaceholderAPI
